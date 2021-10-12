@@ -1,0 +1,9 @@
+m = []
+def cap():
+  for n in range (int(input())):
+      s= input()
+      s = s.capitalize()
+      m.append(s)
+  print(" ".join(m))
+print("enter string")
+cap()
