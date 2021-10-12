@@ -1,0 +1,6 @@
+a1 =[int(x) for x in input().split()]
+a2 =[int(x) for x in input().split()]
+if set(a1) == set(a2):
+  print("Y")
+else:
+  print("N")
